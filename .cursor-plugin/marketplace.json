@@ -1,0 +1,13 @@
+{
+  "name": "dubai-setup-index",
+  "owner": {
+    "name": "Dubai Setup Index",
+    "url": "https://dubaisetupindex.com"
+  },
+  "plugins": [
+    {
+      "name": "dubai-setup-index",
+      "source": "./"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "dubai-setup-index",
+  "version": "1.0.0",
+  "description": "Dubai and UAE company setup data from Dubai Setup Index: compare free zones and the Dubai mainland route, check which free zones permit a business activity, and estimate setup costs with every unknown fee kept explicit. Every answer links to a sourced, dated page.",
+  "author": {
+    "name": "Dubai Setup Index",
+    "email": "hello@dubaisetupindex.com",
+    "url": "https://dubaisetupindex.com"
+  },
+  "homepage": "https://dubaisetupindex.com/docs/mcp",
+  "repository": "https://github.com/dubaisetupindex/dubaisetupindex-plugin",
+  "license": "MIT",
+  "keywords": [
+    "dubai",
+    "uae",
+    "company setup",
+    "business setup",
+    "free zone",
+    "mainland",
+    "trade licence",
+    "business activities",
+    "ifza",
+    "dmcc",
+    "visa",
+    "setup cost"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Dubai Company Setup by DSI",
+        "shortDescription": "Free zones, mainland, setup costs",
+        "longDescription": "Ask about setting up a company in Dubai and the UAE using sourced, dated guides from Dubai Setup Index (DSI). Founders, freelancers and advisers use it to compare free zones with the Dubai mainland route, check which free zones license a business activity, and price a setup before talking to anyone.\n\nLook up any of 40+ UAE free zones for packages and starting prices by visa count, setup steps, documents, visas and renewal. Match a business to licensable activities and see which routes list them. Estimate an IFZA setup or its five-year costs, or a Dubai mainland licence from the official Invest in Dubai calculator. Compare routes side by side, and read setup notes and visa rules by nationality.\n\nEvery figure carries its source and the date it was checked. Facts that are not published stay unknown rather than becoming estimates, and cost estimates list what they leave out instead of hiding it in a total.\n\nUAE only. Published prices and fees change; confirm with the authority before you file or pay. The plugin cannot register a company, submit applications or take payments, and it does not give legal, tax or immigration advice. Tools are read-only. A free Dubai Setup Index sign-in by email is required to connect.",
+        "developerName": "Dubai Setup Index",
+        "category": "Business",
+        "capabilities": [
+          "Free zone packages, prices and visa options",
+          "Business activities by free zone and mainland",
+          "IFZA setup and five-year cost estimates",
+          "Official Dubai mainland licence estimates",
+          "Side-by-side route comparisons",
+          "Setup notes and visa rules by nationality"
+        ],
+        "websiteURL": "https://dubaisetupindex.com",
+        "supportURL": "https://dubaisetupindex.com/contact",
+        "privacyPolicyURL": "https://dubaisetupindex.com/privacy",
+        "termsOfServiceURL": "https://dubaisetupindex.com/terms",
+        "defaultPrompt": [
+          "What does an IFZA licence with one visa cost, and what isn't included?",
+          "Which UAE free zones can license an accounting and bookkeeping business?",
+          "Free zone or Dubai mainland for a software company that needs two visas?"
+        ],
+        "brandColor": "#141414",
+        "brandColorDark": "#F2F2F0",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      },
+      "onboardingSkill": "./skills/get-started/SKILL.md",
+      "publication": {
+        "release_notes": "1.0.0: First release. UAE free zones, Dubai mainland, business activities, IFZA and mainland cost estimates, route comparisons and nationality notes, each with sources and dates."
+      }
+    }
+  }
+}

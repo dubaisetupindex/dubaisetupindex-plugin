@@ -1,0 +1,30 @@
+{
+  "name": "dubai-setup-index",
+  "displayName": "Dubai Company Setup by DSI",
+  "version": "1.0.0",
+  "description": "Dubai and UAE company setup data from Dubai Setup Index: compare free zones and the Dubai mainland route, check which free zones permit a business activity, and estimate setup costs with every unknown fee kept explicit. Every answer links to a sourced, dated page.",
+  "author": {
+    "name": "Dubai Setup Index",
+    "email": "hello@dubaisetupindex.com",
+    "url": "https://dubaisetupindex.com"
+  },
+  "homepage": "https://dubaisetupindex.com/docs/mcp",
+  "repository": "https://github.com/dubaisetupindex/dubaisetupindex-plugin",
+  "license": "MIT",
+  "keywords": [
+    "dubai",
+    "uae",
+    "company setup",
+    "business setup",
+    "free zone",
+    "mainland",
+    "trade licence",
+    "business activities",
+    "ifza",
+    "dmcc",
+    "visa",
+    "setup cost"
+  ],
+  "icon": "./assets/icon.svg",
+  "documentationUrl": "https://dubaisetupindex.com/docs/mcp"
+}

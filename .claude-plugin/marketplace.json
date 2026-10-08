@@ -1,0 +1,16 @@
+{
+  "name": "dubai-setup-index",
+  "description": "UAE company setup data for Claude: free zones, the Dubai mainland route, business activities and setup costs, sourced and dated.",
+  "owner": {
+    "name": "Dubai Setup Index",
+    "url": "https://dubaisetupindex.com"
+  },
+  "plugins": [
+    {
+      "name": "dubai-setup-index",
+      "source": "./",
+      "description": "Dubai and UAE company setup data from Dubai Setup Index: compare free zones and the Dubai mainland route, check which free zones permit a business activity, and estimate setup costs with every unknown fee kept explicit. Every answer links to a sourced, dated page.",
+      "version": "1.0.0"
+    }
+  ]
+}

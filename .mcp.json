@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "dubai-setup-index": {
+      "type": "http",
+      "url": "https://dubaisetupindex.com/api/mcp"
+    }
+  }
+}
