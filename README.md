@@ -71,10 +71,11 @@ read-only.
 
 The plugin talks to one server, `dubaisetupindex.com`. When the assistant calls
 a tool, the tool's arguments, such as a free zone, an activity, a visa count or
-a rent figure, are sent to that server. Dubai Setup Index counts requests per
-account to enforce a rate limit; it does not store the tools called, their
-arguments or its answers. Nothing else from your conversation or your machine
-is sent. See the [privacy policy](https://dubaisetupindex.com/privacy).
+a rent figure, are sent to that server. Dubai Setup Index records each tool
+call in its product analytics (PostHog): the tool name, its arguments, timing,
+errors, the AI client's name and your account identifier. It does not record
+its answers. Nothing else from your conversation or your machine is sent. See
+the [privacy policy](https://dubaisetupindex.com/privacy).
 
 ## Scope
 
