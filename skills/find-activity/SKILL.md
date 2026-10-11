@@ -16,5 +16,6 @@ Explicit user instructions take priority over this workflow.
    A match is a candidate scope, not a confirmed one; the authority confirms
    the final activity. If nothing matches well, say so rather than stretching
    a near match.
-4. Regulated financial services, crypto and construction are not covered;
-   point the user to the regulator.
+4. Report each match's regulation level and approvals. Regulated finance,
+   crypto and construction lines also need their regulator's own licence;
+   name the regulator from regulatoryNotice or the activity's regulators.

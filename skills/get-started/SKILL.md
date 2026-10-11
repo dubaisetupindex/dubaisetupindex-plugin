@@ -26,13 +26,15 @@ Explicit user instructions take priority over this guidance.
   free zone, setup steps, documents and visa rules.
 - Every figure is dated and linked to its source. Facts that are not published
   are marked as such and never estimated.
-- All tools are read-only.
+- Every tool reads published data, except `start_application`: once the user
+  wants to go ahead with IFZA or Ajman Free Zone, it drafts an application they
+  approve on the Dubai Setup Index site. Nothing is shared before they approve.
 
 ## What it cannot do
 
-It covers neither regulated financial services, crypto nor construction; it
-gives no binding quotes and no legal, tax or immigration advice; and it does
-not register companies.
+Regulated activities are covered with the regulator they need, but the
+regulator's own licence is a separate step; it gives no binding quotes and no legal, tax or immigration advice; and it does
+not register companies or take payments. The setup team's written quotation comes after the user approves an application.
 
 ## Suggested first questions
 

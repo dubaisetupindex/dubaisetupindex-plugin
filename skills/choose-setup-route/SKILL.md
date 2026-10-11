@@ -24,3 +24,16 @@ Explicit user instructions take priority over this workflow.
 5. **Answer.** A short list with why each fits, its price at the requested
    visa count and what that price covers, and what must be confirmed. A route
    is a possibility to investigate, not confirmed eligibility. Cite each page.
+
+For a founder's scenario, call `plan_business_setup` with the business type first.
+Use its missing inputs and activity-specific questions, then select an exact
+activity. `get_setup_requirements` returns a partial sourced checklist;
+`compare_setup_scenarios` compares the chosen routes under the same assumptions.
+Use `dubai_only` when the licence must be in Dubai. A regulated route with
+unconfirmed permissions must not be recommended on a generic package price.
+
+For price lists, specify `visa_count` and `term_months` (default 12), use
+`sort: "price_asc"`, and `include_unpriced: true` to see exclusions. A published
+quota-only or partner-channel offer may be absent from comparable results;
+never describe every missing result as unpublished. Read freshness, source,
+conditions and unresolved costs alongside each price.

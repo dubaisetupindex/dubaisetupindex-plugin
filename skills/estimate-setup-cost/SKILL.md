@@ -24,3 +24,10 @@ Rules:
   rent; rent, visas, approvals and renewal are separate.
 - If an estimator refuses a scenario, report the refusal. Do not extrapolate.
 - These are dated reference figures, not quotes. Give the date and cite the page.
+
+Use `list_free_zones` with an explicit `term_months` and `visa_count` for sorted
+package references. `include_unpriced` explains published but excluded offers.
+Use `compare_setup_scenarios` after selecting an exact activity to keep founder
+assumptions consistent. `completeSetupTotalAed: null` is unknown, not zero.
+An overdue review is not an expired offer; known expired offers cannot win the
+comparison. A current headline does not replace a dated calculator result.
