@@ -27,8 +27,9 @@ Explicit user instructions take priority over this guidance.
 - Every figure is dated and linked to its source. Facts that are not published
   are marked as such and never estimated.
 - Every tool reads published data, except `start_application`: once the user
-  wants to go ahead with IFZA or Ajman Free Zone, it drafts an application they
-  approve on the Dubai Setup Index site. Nothing is shared before they approve.
+  wants to go ahead with IFZA, Ajman Free Zone, Meydan Free Zone or Dubai
+  mainland, it drafts an application they approve on the Dubai Setup Index
+  site. Nothing is shared before they approve.
 
 ## What it cannot do
 

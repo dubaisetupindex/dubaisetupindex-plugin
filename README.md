@@ -30,6 +30,7 @@ that tell it how to quote the figures correctly.
 | `.mcp.json` | The remote MCP server, `https://dubaisetupindex.com/api/mcp` |
 | `skills/` | Five skills: get started, choose a setup route, estimate a setup cost, find an activity, cite a figure |
 | `plugin.json`, `mcp.json` | The same plugin in the [Agent Plugins](https://agent-plugins.org) format, for ChatGPT, Codex and other clients |
+| `.codex-plugin/plugin.json` | Codex manifest, also what the OpenAI Agents API loads; reads `skills/` and `.mcp.json` |
 | `.cursor-plugin/` | Cursor manifest and marketplace entry |
 | `.grok-plugin/` | Grok manifest |
 | `assets/` | Icon |
@@ -52,7 +53,12 @@ Cursor at it as a plugin repository.
 **Grok** — `grok` loads it from `~/.grok/plugins/`, or pass the cloned
 repository with `--plugin-dir`.
 
-**ChatGPT and Codex** — use the root `plugin.json` and `mcp.json`.
+**ChatGPT and Codex** — use the root `plugin.json` and `mcp.json`, or the
+`.codex-plugin/` manifest.
+
+**OpenAI Agents API** — add the cloned folder to
+`environment.capability_directories`, or upload it as a ZIP in
+`environment.plugins`.
 
 **Any MCP client, without the skills**
 

@@ -8,7 +8,7 @@ description: Help a founder choose between UAE free zones and the Dubai mainland
 Explicit user instructions take priority over this workflow.
 
 1. **Pin down the business.** What it does, where its clients are (UAE mainland
-   or abroad), whether it needs premises, and how many residence visas at the
+   or abroad), where the work is performed, whether it needs premises, and how many residence visas at the
    start. Ask for what is missing, or state the assumption you made.
 2. **Check the activity.** `search_activities`, then `get_activity` for the best
    match: which lanes list it (IFZA, Ajman Free Zone, Dubai mainland), and its
