@@ -10,8 +10,12 @@ Explicit user instructions take priority over this workflow.
 1. **IFZA:** `estimate_ifza_setup` with the visas (title, and whether the person
    is already in the UAE) and licence term; `estimate_ifza_five_year` for the
    longer view.
-2. **Dubai mainland:** `get_mainland`, then `estimate_mainland_licence` for one
-   of the six covered activities with one or two owners and the annual rent.
+2. **Dubai mainland:** `get_mainland`, then `estimate_mainland_licence` with
+   the exact DET activity code, one or two owners and the annual rent. Six
+   activities were sampled in the official simulator. Other listed DET codes
+   use its fee rule; preserve `derived-from-simulator-rule`, `availabilityNote`
+   and `rentNote` whenever returned. Do not call a derived estimate a directly
+   observed official quote.
 3. **Any other free zone:** `get_free_zone` and its published packages. No
    estimator covers it; say so.
 

@@ -26,10 +26,13 @@ Explicit user instructions take priority over this guidance.
   free zone, setup steps, documents and visa rules.
 - Every figure is dated and linked to its source. Facts that are not published
   are marked as such and never estimated.
-- Every tool reads published data, except `start_application`: once the user
-  wants to go ahead with IFZA, Ajman Free Zone, Meydan Free Zone or Dubai
-  mainland, it drafts an application they approve on the Dubai Setup Index
-  site. Nothing is shared before they approve.
+- Most tools read published data. `prepare_quote` saves a quote for a named
+  client and returns a shareable link; call it only when the user asks for a
+  client quote. Use the estimate tools to price a scenario without saving it.
+- `start_application` drafts an application once the user wants to go ahead
+  with IFZA, Ajman Free Zone, Meydan Free Zone or Dubai mainland. They approve
+  it on the Dubai Setup Index site; nothing is shared with the setup team
+  before they approve.
 
 ## What it cannot do
 

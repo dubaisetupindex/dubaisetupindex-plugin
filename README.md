@@ -70,7 +70,7 @@ On claude.ai, add `https://dubaisetupindex.com/api/mcp` as a custom connector.
 
 ## Sign-in and the data it sends
 
-Connecting opens a browser sign-in to a free Dubai Setup Index account (OAuth
+Connecting opens a browser sign-in to a Dubai Setup Index account (OAuth
 2.1): an email address and a sign-in link or code, no password and no API key.
 The plugin requests access to published setup data. Every tool reads, except
 `start_application`, which saves a draft application to your account; it is
