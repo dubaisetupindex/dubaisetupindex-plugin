@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "dubai-setup-index",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Dubai and UAE company setup data from Dubai Setup Index: compare free zones and the Dubai mainland route, check which free zones permit a business activity, and estimate setup costs with every unknown fee kept explicit. Every answer links to a sourced, dated page.",
   "author": {
     "name": "Dubai Setup Index",
@@ -35,10 +35,10 @@
     "com.openai": {
       "interface": {
         "displayName": "Dubai Setup Index",
-        "shortDescription": "UAE business setup, free zones, costs",
+        "shortDescription": "UAE business setup and costs",
         "longDescription": "Dubai Setup Index answers Dubai and UAE business setup and company formation questions with sourced, dated figures. Founders, freelancers and advisers use it to compare free zones with the Dubai mainland route, check which free zones license a business activity, and price a trade licence and visas before talking to anyone.\n\nLook up any of 40+ UAE free zones for packages and starting prices by visa count, setup steps, documents, visas and renewal. Match a business to licensable activities and see which routes list them. Estimate an IFZA setup or its five-year costs, or a Dubai mainland licence from the official Invest in Dubai calculator. Compare routes side by side, and read setup notes and visa rules by nationality.\n\nEvery figure carries its source and the date it was checked. Facts that are not published stay unknown rather than becoming estimates, and cost estimates list what they leave out instead of hiding it in a total.\n\nUAE only. Published prices and fees change; confirm with the authority before you file or pay. The plugin does not file anything or take payments: for IFZA, Ajman Free Zone, Meydan Free Zone and Dubai mainland it can draft a setup application that you review and approve on the Dubai Setup Index site, and the setup team (JustMove) then sends its own written quotation. It does not give legal, tax or immigration advice. A Dubai Setup Index account is required to connect.",
         "developerName": "Dubai Setup Index",
-        "category": "Business",
+        "category": "Business & Operations",
         "capabilities": [
           "Free zone packages, prices and visa options",
           "Business activities by free zone and mainland",
@@ -63,7 +63,7 @@
       },
       "onboardingSkill": "./skills/get-started/SKILL.md",
       "publication": {
-        "release_notes": "1.2.1: Listed as Dubai Setup Index; adds a Codex plugin manifest. 1.2.0: Sourced, dated Dubai and UAE company-setup data in chat. Look up 40+ UAE free zones (packages and starting prices by visa count, setup steps, documents, visas and renewal); match a business to licensable activities by free zone and the Dubai mainland, with codes, approvals and the regulator a regulated activity needs; estimate an IFZA setup line by line or over five years, and a Dubai mainland licence from the official Invest in Dubai calculator; compare routes and setup scenarios side by side under the same assumptions; read setup notes and visa rules by nationality; plan a setup from a business type with a sourced requirements checklist; prepare a line-item IFZA quote for a client; and, for IFZA, Ajman Free Zone, Meydan Free Zone and Dubai mainland, draft a setup application that you approve on the Dubai Setup Index site. Unpublished fees stay unknown rather than estimated. Account limit messages state the limit and when it resets."
+        "release_notes": "1.2.2: Listed as Dubai Setup Index under Business & Operations; adds a Codex plugin manifest. 1.2.0: Sourced, dated Dubai and UAE company-setup data in chat. Look up 40+ UAE free zones (packages and starting prices by visa count, setup steps, documents, visas and renewal); match a business to licensable activities by free zone and the Dubai mainland, with codes, approvals and the regulator a regulated activity needs; estimate an IFZA setup line by line or over five years, and a Dubai mainland licence from the official Invest in Dubai calculator; compare routes and setup scenarios side by side under the same assumptions; read setup notes and visa rules by nationality; plan a setup from a business type with a sourced requirements checklist; prepare a line-item IFZA quote for a client; and, for IFZA, Ajman Free Zone, Meydan Free Zone and Dubai mainland, draft a setup application that you approve on the Dubai Setup Index site. Unpublished fees stay unknown rather than estimated. Account limit messages state the limit and when it resets."
       }
     }
   }
