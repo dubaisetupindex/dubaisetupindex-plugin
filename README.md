@@ -33,7 +33,7 @@ that tell it how to quote the figures correctly.
 | `.codex-plugin/plugin.json` | Codex manifest, also what the OpenAI Agents API loads; reads `skills/` and `.mcp.json` |
 | `.cursor-plugin/` | Cursor manifest and marketplace entry |
 | `.grok-plugin/` | Grok manifest |
-| `assets/` | Icon |
+| assets/ | Icon and logo |
 
 The skills are plain Markdown instructions. The plugin ships no scripts, hooks
 or executables and installs no packages.
@@ -88,10 +88,11 @@ two that save to your account:
 The plugin talks to one server, `dubaisetupindex.com`. When the assistant calls
 a tool, the tool's arguments, such as a free zone, an activity, a visa count or
 a rent figure, are sent to that server. Dubai Setup Index records each tool
-call in its product analytics (PostHog): the tool name, its arguments, timing,
-errors, the AI client's name and your account identifier. It does not record
-its answers. Nothing else from your conversation or your machine is sent. See
-the [privacy policy](https://dubaisetupindex.com/privacy).
+call in its product analytics (PostHog, United States): the tool name, its
+arguments (never the client name on a quote), how long the answer took and how
+large it was, errors, the AI client's name and your account identifier. It
+does not record its answers. Nothing else from your conversation or your
+machine is sent. See the [privacy policy](https://dubaisetupindex.com/privacy).
 
 ## Scope
 
