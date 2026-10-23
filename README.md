@@ -73,8 +73,17 @@ On claude.ai, add `https://dubaisetupindex.com/api/mcp` as a custom connector.
 Connecting opens a browser sign-in to a Dubai Setup Index account (OAuth
 2.1): an email address and a sign-in link or code, no password and no API key.
 The plugin requests access to published setup data. Every tool reads, except
-`start_application`, which saves a draft application to your account; it is
-shared with the setup team only after you approve it on the site.
+two that save to your account:
+
+- `start_application` saves a draft setup application: the route, activity,
+  visas, licence term and shareholders' nationalities, with no names or
+  passport details. Nothing is shared until you approve it on the site. When
+  you approve, the application, your email address and any phone number you add
+  go to the Dubai Setup Index setup team (JustMove), which sends its own written
+  quotation.
+- `prepare_quote` saves a line-item IFZA quote for the client name you give and
+  returns a link that anyone you send it to can open without signing in. Quotes
+  are never sent to JustMove or any setup team.
 
 The plugin talks to one server, `dubaisetupindex.com`. When the assistant calls
 a tool, the tool's arguments, such as a free zone, an activity, a visa count or
@@ -87,8 +96,9 @@ the [privacy policy](https://dubaisetupindex.com/privacy).
 ## Scope
 
 UAE only. Published prices and fees change; confirm with the authority before
-you file or pay. The plugin cannot register a company, submit applications or
-take payments, and it does not give legal, tax or immigration advice.
+you file or pay. The plugin does not register a company, file anything with an
+authority or take payments, and it does not give legal, tax or immigration
+advice.
 
 ## Support
 
